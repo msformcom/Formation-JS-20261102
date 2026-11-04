@@ -1,0 +1,4 @@
+{
+    "jasmineExplorer.cwd": "Code/tests",
+    "jasmineExplorer.config": "spec/support/jasmine.json"
+}

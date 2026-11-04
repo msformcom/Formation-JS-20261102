@@ -1,14 +1,29 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Position de l'utilisateur</title>
     <script src="index.mjs" type="module"></script>
 </head>
+
 <body>
     <h1>Obtention de la position</h1>
     <button id="btn_geolocaliser">Géolocaliser</button>
     <div id="resultats"></div>
+    <table id="resultats_sun">
+        <tbody>
+            <tr>
+                <td>Lever du soleil</td>
+                <td data-value="sunrise"></td>
+            </tr>
+            <tr>
+                <td>Coucher du soleil</td>
+                <td data-value="sunset"></td>
+            </tr>
+        </tbody>
+    </table>
 </body>
+
 </html>

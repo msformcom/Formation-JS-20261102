@@ -38,3 +38,5 @@ a[href^="http"]{
 a[href$=".pdf"]{
     /* Liens vers des fichiers PDF */
 }
+
+#resultats_sun [data-value]{}
